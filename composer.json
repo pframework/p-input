@@ -1,0 +1,17 @@
+{
+    "name": "pframework/p-input",
+    "description": "A architecture for filtering and validating user input using callables and arrays",
+    "license": "UNLICENSE",
+    "authors": [
+        {
+            "name": "Ralph Schindler",
+            "email": "ralph@ralphschindler.com",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "P\\Input": "source/"
+        }
+    }
+}
