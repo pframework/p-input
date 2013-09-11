@@ -1,11 +1,11 @@
 <?php
 
-namespace P\Input;
+namespace P;
 
 /**
  * @property \ArrayObject $errors
  */
-class ProcessResult
+class InputProcessResult
 {
 
     protected $values = array();

@@ -1,6 +1,6 @@
 <?php
 
-namespace P\Input;
+namespace P;
 
 class Input implements \ArrayAccess
 {
@@ -22,7 +22,7 @@ class Input implements \ArrayAccess
 
     public function process(array $source)
     {
-        $result = new ProcessResult();
+        $result = new InputProcessResult();
         foreach ($this->specifications as $name => $specification) {
 
             $mapName = (isset($specification['name'])) ? $specification['name'] : $name;
